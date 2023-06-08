@@ -12,7 +12,7 @@
   },
   "name": "airbnb",
   "version": "1.0.0",
-  "main": "App.js",
+  "main": "index.html",
   "scripts": {
     "start": "parcel index.html",
     "build":"parcel build index.html",
