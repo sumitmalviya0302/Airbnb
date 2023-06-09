@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import RoomCard from "./RoomCard";
-import Shimmer from "./Shimmer";
+import ShimmerRoomList from "./ShimmerRoomList";
 
 const RoomList = () => {
   const [rooms, setRooms] = useState([]);
@@ -26,7 +26,7 @@ const RoomList = () => {
     }
   }, []);
   return (rooms.length === 0) ? (
-    <Shimmer />
+    <ShimmerRoomList />
   ) : (
     <>
       <div className="mx-4 mt-4 flex justify-between flex-wrap">

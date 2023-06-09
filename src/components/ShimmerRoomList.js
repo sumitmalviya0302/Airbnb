@@ -3,7 +3,7 @@
 
 import React from 'react'
 
-const Shimmer = () => {
+const ShimmerRoomList = () => {
   return (
     <div className='mx-4 mt-4 flex justify-between flex-wrap'>
     {Array(20).fill('').map((index)=>(
@@ -20,4 +20,4 @@ const Shimmer = () => {
   )
 }
 
-export default Shimmer
+export default ShimmerRoomList
