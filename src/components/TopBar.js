@@ -5,7 +5,7 @@ import accountICON from "../assests/topbar/round-account-button-with-user-inside
 
 const TopBar = () => {
   return (
-    <header className="h-20 w-full px-10 border-b">
+    <header className="h-20 w-full px-10 border-b sticky top-0 bg-white z-50">
       <div className="flex justify-between items-center h-full w-full relative z-1">
         <div className="w-[20%]">
         <img

@@ -17,7 +17,7 @@ import filter from '../assests/categories/filter.png'
 
 const Categories = () => {
   return (
-    <div className='flex my-4 px-10 h-[90px]'>
+    <div className='flex my-4 px-10 h-[90px] sticky top-1 bg-white z-40'>
       <div className='flex justify-between  h-[90px] my-auto w-[95%] overflow-y-scroll scrollbar-none'>
 
         <div className=' py-3 mr-8 hover:border-b-4 '>
